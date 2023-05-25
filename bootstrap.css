@@ -11421,3 +11421,15 @@ body {
 .offcanvas .text-muted {
   color: rgba(255, 255, 255, 0.7) !important;
 }
+
+hr {
+  width: 100%; 
+  background-color: red;
+  border: #000 2px solid;
+  border-radius: 10px;
+  height: 10px;
+}
+.img{
+  width: 300px;
+  height: 300px;
+}
