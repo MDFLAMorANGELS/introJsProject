@@ -21,4 +21,6 @@ function factorialize(num) {
   
   if (result !== null) {
     document.getElementById('factoriel').innerHTML += `Voici le factoriel de ${numberSelect} = ${result}`;
+  } else {
+    document.getElementById('factoriel').innerHTML += `Veuillez entrer un nombre entier positif`;
   }
